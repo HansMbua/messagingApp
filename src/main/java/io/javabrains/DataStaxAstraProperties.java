@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.stereotype.Component;
 
 import java.io.File;
-@Component
+//@Component
 @ConfigurationProperties(prefix = "datastax.astra")
 public class DataStaxAstraProperties {
 
